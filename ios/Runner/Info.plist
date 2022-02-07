@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>$(DEVELOPMENT_LANGUAGE)</string>
+		<key>CFBundleDisplayName</key>
+		<string>トライバ 車</string>
+		<key>CFBundleExecutable</key>
+		<string>$(EXECUTABLE_NAME)</string>
+		<key>CFBundleIdentifier</key>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>CFBundleName</key>
+		<string>トライバ 車</string>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleShortVersionString</key>
+		<string>$(MARKETING_VERSION)</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>位置情報を共有するために，本アプリは端末の位置情報にアクセスを行います．</string>
+		<key>NSLocationAlwaysUsageDescription</key>
+		<string>バックグラウンドで位置情報をアクセスすると，より正確な位置情報を共有できます．</string>
+		<key>CFBundleSignature</key>
+		<string>APPL</string>
+		<key>CFBundleVersion</key>
+		<string>$(CURRENT_PROJECT_VERSION)</string>
+		<key>ITSAppUsesNonExemptEncryption</key>
+		<false/>
+		<key>LSRequiresIPhoneOS</key>
+		<true/>
+		<key>UIBackgroundModes</key>
+		<array>
+			<string>fetch</string>
+			<string>remote-notification</string>
+		</array>
+		<key>UILaunchStoryboardName</key>
+		<string>LaunchScreen</string>
+		<key>UIMainStoryboardFile</key>
+		<string>Main</string>
+		<key>UISupportedInterfaceOrientations</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>UISupportedInterfaceOrientations~ipad</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationPortraitUpsideDown</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>UIViewControllerBasedStatusBarAppearance</key>
+		<false/>
+		<key>UIStatusBarHidden</key>
+		<false/>
+	</dict>
+</plist>
